@@ -1,0 +1,9 @@
+C:/Scratch/Dev/roto/build/CMakeFiles/Experimental.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/Nightly.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/Continuous.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/roto.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/PACKAGE.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/RUN_TESTS.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/ALL_BUILD.dir
+C:/Scratch/Dev/roto/build/CMakeFiles/ZERO_CHECK.dir
