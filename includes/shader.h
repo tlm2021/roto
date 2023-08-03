@@ -8,6 +8,8 @@
 #include <sstream>
 #include <iostream>
 
+#include <glm/glm/glm.hpp>
+#include <glm/glm/gtc/type_ptr.hpp>
 
 class Shader
 {
@@ -112,6 +114,21 @@ public:
 	void setFloat(const std::string& name, float value) const
 	{
 		glUniform1f(glGetUniformLocation(ID, name.c_str()), value);
+	}
+
+	void setModelXForm(glm::mat4& matrix) {
+		unsigned int transformLoc = glGetUniformLocation(ID, "model");
+		glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(matrix));
+	}
+
+	void setViewXForm(glm::mat4& matrix) {
+		unsigned int transformLoc = glGetUniformLocation(ID, "view");
+		glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(matrix));
+	}
+
+	void setProjectionXForm(glm::mat4& matrix) {
+		unsigned int transformLoc = glGetUniformLocation(ID, "projection");
+		glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(matrix));
 	}
 
 };

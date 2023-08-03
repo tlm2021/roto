@@ -5,6 +5,14 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roto", "roto.vcxproj", "{724596E2-A683-4072-9425-369A8232E1B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59A59393-2381-4625-9D7C-1748130F7761}"
+	ProjectSection(SolutionItems) = preProject
+		resources\textures\awesomeface.png = resources\textures\awesomeface.png
+		includes\shader.h = includes\shader.h
+		shaders\texture.fs = shaders\texture.fs
+		shaders\texture.vs = shaders\texture.vs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
